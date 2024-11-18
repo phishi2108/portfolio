@@ -1,0 +1,170 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818; /* Dark background similar to GitHub */
+    color: #E0E0E0; /* Light text color for better contrast */
+}
+
+/* Hero Section */
+header {
+    background-color: #24292F; /* Darker gray background like GitHub's header */
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #58A6FF; /* GitHub blue */
+}
+
+.hero-container p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #B0B0B0; /* Lighter text for a balanced look */
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #58A6FF; /* Button matches GitHub blue */
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1F76D6; /* Darker blue on hover */
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #24292F;
+    list-style-type: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #B0B0B0; /* Lighter text color */
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #58A6FF; /* GitHub blue on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #24292F; /* Dark background for sections */
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #58A6FF; /* Section headers in GitHub blue */
+}
+
+section p {
+    font-size: 18px;
+    color: #B0B0B0;
+}
+
+/* Achievements Section */
+#achievements ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#achievements li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#skills li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #24292F;
+    color: #B0B0B0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 60px 20px;
+    }
+
+    .hero-container h1 {
+        font-size: 45px;
+    }
+
+    .hero-container p {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-container h1 {
+        font-size: 35px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+    }
+}
